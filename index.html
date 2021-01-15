@@ -143,68 +143,16 @@
               </div>
             </div>
             <form action="#" method="post" class="orderformcdn">
-              <div class="form-item">
-                <select
-                  name="country"
-                  class="countryselect form-control location"
-                >
-                  <option selected value="RU">Россия</option>
-                </select>
-              </div>
-              <div class="form-item">
-                <input
-                  type="text"
-                  name="name"
-                  class="field form-control userneme"
-                  placeholder="Ваше Имя"
-                  value=""
-                />
-              </div>
-              <div class="form-item">
-                <input
-                  type="text"
-                  name="phone"
-                  class="field form-control phone"
-                  placeholder="Ваш телефон"
-                  value=""
-                />
-              </div>
-              <input
-                type="hidden"
-                name="productsum"
-                class="productsum"
-                value="1 руб."
-              />
-              <input type="hidden" name="delivery" value="0 руб." />
-              <input
-                type="hidden"
-                name="totalsum"
-                class="productsum"
-                value="1 руб."
-              />
-              <input type="hidden" name="user" value="1" />
-              <input
-                type="hidden"
-                name="address"
-                value="Уточнить у покупателя"
-              />
 
               <div class="reolader form-item">
-                <button
-                  type="submit"
+                <a href="#form"
+              
                   class="form-btn mm_button"
-                  onclick="checkFields(event, this);"
+                 
                 >
                   Сделать заказ
-                </button>
-                <div class="ajax_loader_block">
-                  <img
-                    class="ajax_loader"
-                    src="img/ajax-loader.gif"
-                    alt="Идет отправка данных"
-                  />
-                  <span class="ajax_loader">Идет отправка данных</span>
-                </div>
+              </a>
+              
               </div>
               <div class="form-count">
                 *количество товара по акции <span>ограничено!</span>
